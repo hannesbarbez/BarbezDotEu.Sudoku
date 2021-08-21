@@ -1,12 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BarbezDotEu.Sodoku.Generator\BarbezDotEu.Sodoku.Generator.csproj" />
+    <PackageReference Include="BarbezDotEu.Generic" Version="1.0.0" />
   </ItemGroup>
 
 </Project>
