@@ -5,7 +5,7 @@ Yet another Sudoku repo with the description "Yet another Sudoku repo".
 
 First, reference the https://www.nuget.org/packages/BarbezDotEu.Sudoku.Generator/ package in your game solution.
 
-    Install-Package BarbezDotEu.Sudoku.Generator -Version 1.0.0
+    Install-Package BarbezDotEu.Sudoku.Generator
 
 Now, simply instantiate a new game. From there on out, its 'Solution' property is available.
 
