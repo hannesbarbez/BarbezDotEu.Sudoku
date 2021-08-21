@@ -17,6 +17,7 @@
     <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.Sudoku</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <PackageIconUrl>https://i2.wp.com/barbez.eu/wp-content/uploads/2021/08/210821-Without-grid-Compressed.png?resize=64%2C64</PackageIconUrl>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
