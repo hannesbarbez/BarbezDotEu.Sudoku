@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarbezDotEu.Sodoku.Generator", "BarbezDotEu.Sodoku.Generator\BarbezDotEu.Sodoku.Generator.csproj", "{928BAA2A-6C5F-446B-BE2D-2E4745F22B60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BarbezDotEu.Sodoku.Generator", "BarbezDotEu.Sodoku.Generator\BarbezDotEu.Sodoku.Generator.csproj", "{928BAA2A-6C5F-446B-BE2D-2E4745F22B60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BarbezDotEu.Sodoku.Tests", "BarbezDotEu.Sodoku.Tests\BarbezDotEu.Sodoku.Tests.csproj", "{CC8EDC78-83AD-4967-A290-4090210EB367}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{928BAA2A-6C5F-446B-BE2D-2E4745F22B60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{928BAA2A-6C5F-446B-BE2D-2E4745F22B60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{928BAA2A-6C5F-446B-BE2D-2E4745F22B60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8EDC78-83AD-4967-A290-4090210EB367}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8EDC78-83AD-4967-A290-4090210EB367}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8EDC78-83AD-4967-A290-4090210EB367}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8EDC78-83AD-4967-A290-4090210EB367}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
