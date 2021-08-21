@@ -12,6 +12,7 @@
     <Description>Demonstrates the BarbezDotEu.Sudoku.Generator package.</Description>
     <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.Sudoku</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
+    <PackageIconUrl>https://i2.wp.com/barbez.eu/wp-content/uploads/2021/08/210821-Without-grid-Compressed.png?resize=64%2C64</PackageIconUrl>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\BarbezDotEu.Sudoku.Generator\BarbezDotEu.Sudoku.Generator.csproj" />
