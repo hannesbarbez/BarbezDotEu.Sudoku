@@ -3,18 +3,18 @@
     <TargetFramework>net5.0</TargetFramework>
     <Authors>Hannes Barbez</Authors>
     <Company>Hannes Barbez</Company>
-    <Title>BarbezDotEu.Sodoku.Generator</Title>
-    <Product>BarbezDotEu.Sodoku.Generator</Product>
-    <PackageId>BarbezDotEu.Sodoku.Generator</PackageId>
+    <Title>BarbezDotEu.Sudoku.Generator</Title>
+    <Product>BarbezDotEu.Sudoku.Generator</Product>
+    <PackageId>BarbezDotEu.Sudoku.Generator</PackageId>
     <Copyright>©2021 Hannes Barbez</Copyright>
     <Version>1.0.0</Version>
-    <Description>This package generates sodoku games.</Description>
-    <PackageTags>basic;sodoku;generator;barbez</PackageTags>
+    <Description>This package generates Sudoku games.</Description>
+    <PackageTags>basic;Sudoku;generator;barbez</PackageTags>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://barbez.eu</PackageProjectUrl>
     <PackageOutputPath>./nupkg</PackageOutputPath>
-    <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.Sodoku</RepositoryUrl>
+    <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.Sudoku</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>

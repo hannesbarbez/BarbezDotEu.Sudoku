@@ -3,19 +3,19 @@
 
 using System.Collections.Generic;
 
-namespace BarbezDotEu.Sodoku.Generator
+namespace BarbezDotEu.Sudoku.Generator
 {
     /// <summary>
-    /// Implements a game of sodoku, including its solution.
+    /// Implements a game of Sudoku, including its solution.
     /// </summary>
-    public class SodokuGame
+    public class SudokuGame
     {
         /// <summary>
-        /// Constructs a <see cref="SodokuGame"/>.
+        /// Constructs a <see cref="SudokuGame"/>.
         /// </summary>
-        public SodokuGame()
+        public SudokuGame()
         {
-            this.Solution = new SodokuSolutionGenerator().Generate();
+            this.Solution = new SudokuSolutionGenerator().Generate();
         }
 
         /// <summary>

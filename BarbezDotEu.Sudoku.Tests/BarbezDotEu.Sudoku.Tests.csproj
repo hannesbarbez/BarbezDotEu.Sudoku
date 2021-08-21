@@ -1,8 +1,16 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
-
+    <Authors>Hannes Barbez</Authors>
+    <Company>Hannes Barbez</Company>
+    <Title>BarbezDotEu.Sudoku.Tests</Title>
+    <Product>BarbezDotEu.Sudoku.Tests</Product>
+    <PackageId>BarbezDotEu.Sudoku.Tests</PackageId>
+    <Copyright>©2021 Hannes Barbez</Copyright>
+    <Version>1.0.0</Version>
+    <Description>Tests the BarbezDotEu.Sudoku.Generator project.</Description>
+    <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.Sudoku</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
     <IsPackable>false</IsPackable>
   </PropertyGroup>
 
@@ -17,7 +25,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\BarbezDotEu.Sodoku.Generator\BarbezDotEu.Sodoku.Generator.csproj" />
+    <ProjectReference Include="..\BarbezDotEu.Sudoku.Generator\BarbezDotEu.Sudoku.Generator.csproj" />
   </ItemGroup>
 
 </Project>

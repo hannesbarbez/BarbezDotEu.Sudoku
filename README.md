@@ -1,2 +1,2 @@
-# BarbezDotEu.Sodoku
-Yet another Sodoku repo with the description "Yet another Sodoku repo".
+# BarbezDotEu.Sudoku
+Yet another Sudoku repo with the description "Yet another Sudoku repo".

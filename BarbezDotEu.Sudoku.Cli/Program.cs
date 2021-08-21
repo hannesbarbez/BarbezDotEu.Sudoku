@@ -4,28 +4,28 @@
 using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using BarbezDotEu.Sodoku.Generator;
+using BarbezDotEu.Sudoku.Generator;
 
-namespace BarbezDotEu.Sodoku.Cli
+namespace BarbezDotEu.Sudoku.Cli
 {
     /// <summary>
-    /// This class demonstrates the BarbezDotEu.Sodoku.Generator project.
+    /// This class demonstrates the BarbezDotEu.Sudoku.Generator project.
     /// </summary>
     class Program
     {
         private static void Main()
         {
-            var games = new HashSet<SodokuGame>();
+            var games = new HashSet<SudokuGame>();
             Parallel.For(default, 5, i =>
             {
-                var game = new SodokuGame();
+                var game = new SudokuGame();
                 games.Add(game);
             });
 
             Show(games);
         }
 
-        private static void Show(IEnumerable<SodokuGame> games)
+        private static void Show(IEnumerable<SudokuGame> games)
         {
             foreach (var game in games)
             {

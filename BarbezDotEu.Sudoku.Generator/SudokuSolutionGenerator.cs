@@ -6,12 +6,12 @@ using System.Collections.Generic;
 using System.Linq;
 using BarbezDotEu.Generic;
 
-namespace BarbezDotEu.Sodoku.Generator
+namespace BarbezDotEu.Sudoku.Generator
 {
     /// <summary>
-    /// Generates Sodoku solutions.
+    /// Generates Sudoku solutions.
     /// </summary>
-    public class SodokuSolutionGenerator
+    public class SudokuSolutionGenerator
     {
         private static readonly byte[] possibilities = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         private static readonly int items = possibilities.Length;
@@ -19,9 +19,9 @@ namespace BarbezDotEu.Sodoku.Generator
         private const int LocalFieldsPerRow = 3;
 
         /// <summary>
-        /// Generates and returns a random sodoku solution.
+        /// Generates and returns a random Sudoku solution.
         /// </summary>
-        /// <returns>A solved sodoku.</returns>
+        /// <returns>A solved Sudoku.</returns>
         public IEnumerable<byte[]> Generate()
         {
             // Note: no attempt has been made (yet) to optimize this algorithm.
@@ -69,10 +69,10 @@ namespace BarbezDotEu.Sodoku.Generator
 
         /// <summary>
         /// Checks if a candidate row can be added to the current playing field, by verifying whether a candidate row would result in unique values inside all 9x9 local playing fields.
-        /// If no duplicates are present, the candidate row is deemed not to violate the 9x9 local playing field uniqueness rule of the sodoku game.
+        /// If no duplicates are present, the candidate row is deemed not to violate the 9x9 local playing field uniqueness rule of the Sudoku game.
         /// </summary>
         /// <param name="candidateRow">The row to validate for fitness given the existing playing field.</param>
-        /// <returns>True if the candidate row does not violate the 9x9 local playing field uniqueness rule of the sodoku game. False, otherwise.</returns>
+        /// <returns>True if the candidate row does not violate the 9x9 local playing field uniqueness rule of the Sudoku game. False, otherwise.</returns>
         private bool DoesNotViolateLocalPlayingFieldUniqueness(byte[] candidateRow)
         {
             var currentFieldRows = this.playingField.Count;
