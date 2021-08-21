@@ -1,12 +1,19 @@
 <Project Sdk="Microsoft.NET.Sdk">
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>Hannes Barbez</Authors>
+    <Company>Hannes Barbez</Company>
+    <Title>BarbezDotEu.Sodoku.Cli</Title>
+    <Product>BarbezDotEu.Sodoku.Cli</Product>
+    <PackageId>BarbezDotEu.Sodoku.Cli</PackageId>
+    <Copyright>©2021 Hannes Barbez</Copyright>
+    <Version>1.0.0</Version>
+    <Description>Demonstrates the BarbezDotEu.Sodoku.Generator package.</Description>
+    <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.Sodoku</RepositoryUrl>
+    <RepositoryType>GIT</RepositoryType>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\BarbezDotEu.Sodoku.Generator\BarbezDotEu.Sodoku.Generator.csproj" />
   </ItemGroup>
-
 </Project>

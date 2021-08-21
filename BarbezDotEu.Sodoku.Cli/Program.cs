@@ -8,30 +8,33 @@ using BarbezDotEu.Sodoku.Generator;
 
 namespace BarbezDotEu.Sodoku.Cli
 {
-    internal class Program
+    /// <summary>
+    /// This class demonstrates the BarbezDotEu.Sodoku.Generator project.
+    /// </summary>
+    class Program
     {
-
-        private static void Main(string[] args)
+        private static void Main()
         {
-            Program program = new();
-            Run();
-        }
-
-        private static void Run()
-        {
-            Parallel.For(default, 10, i =>
+            var games = new HashSet<SodokuGame>();
+            Parallel.For(default, 5, i =>
             {
-                var field = new SodokuGenerator().Generate();
-                DisplayField(field);
-                Console.WriteLine();
+                var game = new SodokuGame();
+                games.Add(game);
             });
+
+            Show(games);
         }
 
-        private static void DisplayField(IEnumerable<byte[]> field)
+        private static void Show(IEnumerable<SodokuGame> games)
         {
-            foreach (var row in field)
+            foreach (var game in games)
             {
-                Console.WriteLine(string.Join(',', row));
+                foreach (var row in game.Solution)
+                {
+                    Console.WriteLine(string.Join(',', row));
+                }
+
+                Console.WriteLine();
             }
         }
     }
