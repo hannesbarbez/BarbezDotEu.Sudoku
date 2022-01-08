@@ -15,7 +15,7 @@ namespace BarbezDotEu.Sudoku.Generator
     {
         private static readonly byte[] possibilities = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
         private static readonly int items = possibilities.Length;
-        private readonly List<byte[]> playingField = new();
+        private readonly List<byte[]> playingField = new List<byte[]>();
         private const int LocalFieldsPerRow = 3;
 
         /// <summary>
@@ -83,10 +83,10 @@ namespace BarbezDotEu.Sudoku.Generator
 
             var maxRowsLookback = 2;
             var rowsToCheck = currentFieldRows < maxRowsLookback ? currentFieldRows : maxRowsLookback;
-            List<List<byte>> localFields = new();
+            var localFields = new List<List<byte>>();
             for (int i = default; i < LocalFieldsPerRow; i++)
             {
-                List<byte> localField = new();
+                var localField = new List<byte>();
                 for (int j = currentFieldRows - rowsToCheck; j < currentFieldRows; j++)
                 {
                     localField.AddRange(this.playingField[j].Skip(i * LocalFieldsPerRow).Take(LocalFieldsPerRow));

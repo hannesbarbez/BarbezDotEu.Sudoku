@@ -7,7 +7,7 @@
     <Title>BarbezDotEu.Sudoku.Cli</Title>
     <Product>BarbezDotEu.Sudoku.Cli</Product>
     <PackageId>BarbezDotEu.Sudoku.Cli</PackageId>
-    <Copyright>©2021 Hannes Barbez</Copyright>
+    <Copyright>©2022 Hannes Barbez</Copyright>
     <Version>1.0.0</Version>
     <Description>Demonstrates the BarbezDotEu.Sudoku.Generator package.</Description>
     <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.Sudoku</RepositoryUrl>
