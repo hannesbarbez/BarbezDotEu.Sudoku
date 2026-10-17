@@ -17,8 +17,10 @@
     <RepositoryUrl>https://github.com/hannesbarbez/BarbezDotEu.Sudoku</RepositoryUrl>
     <RepositoryType>GIT</RepositoryType>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-    <PackageIconUrl>https://i2.wp.com/barbez.eu/wp-content/uploads/2021/08/210821-Without-grid-Compressed.png?resize=64%2C64</PackageIconUrl>
-    <DebugSymbols>true</DebugSymbols>
+      <GenerateDocumentationFile>true</GenerateDocumentationFile>
+      <PackageReadmeFile>README.md</PackageReadmeFile>
+      <PackageIcon>ICON.png</PackageIcon>
+      <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
@@ -26,4 +28,8 @@
   <ItemGroup>
     <PackageReference Include="BarbezDotEu.Generic" Version="4.0.0" />
   </ItemGroup>
+    <ItemGroup>
+        <None Include="..\README.md" Pack="true" PackagePath="\" />
+        <None Include="..\ICON.png" Pack="true" PackagePath="\" />
+    </ItemGroup>
 </Project>
